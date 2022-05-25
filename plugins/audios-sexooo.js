@@ -10,7 +10,7 @@ ptt: true // true diatas ga work, sebab dipaksa tanpa convert ;v
 }
 handler.help = ['ꜱᴇxᴏ']
 handler.tags = ['audios']
-handler.customPrefix =/SEXOOO|sexo|sex|Sexo/i
+handler.customPrefix =/SEXOOO|s3xo!!!|S3xo!!!|$3x0|S3x0!!!/i
 handler.command = new RegExp
 
 handler.fail = null
