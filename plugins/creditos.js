@@ -1,10 +1,10 @@
 
 let handler = async m => m.reply(`
 ┏━━━━━ ★彡[ᴄʀᴇᴅɪᴛᴏꜱ]彡★ ━━━━━ ◈
-┃࿊⃟♦- Creado por :*Odin™✓*
-┃ Contacto: wa.me/5214774739565
+┃࿊⃟♦- Creado por :*𝓡𝓪𝓶𝓸𝓼🕶™✓*
+┃ Contacto: wa.me/302111996024
 ┃ Repositorio del bot: 
-┃ https://github.com/OdinTm/INFINIXBOT-MD 
+┃ https://github.com/DeusExMortis-Eng/Diluc-MD 
 ┃────────➢
 ┃࿊⃟♦- Base: *Nurutomo y Bochilgaming*
 ┃github:https://github.com/BochilGaming/games-wabot
