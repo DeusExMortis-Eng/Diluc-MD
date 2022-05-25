@@ -3,7 +3,7 @@ handler.before = m => {
   let user = global.DATABASE.data.users[m.sender]
   if (user.afk > -1) {
     m.reply(`
-*_🔹 Dejaste de estar inactivo (AFK)${user.afkReason ? ' después de estar inactivo (AFK) por el motivo: ' + user.afkReason : ''}_*
+*_💤 Dejaste de estar inactivo (AFK)${user.afkReason ? ' después de estar inactivo (AFK) por el motivo: ' + user.afkReason : ''}_*
 
 *_⌛ Tiempo de inactividad: ${clockString(new Date - user.afk)}_*
 `.trim())
@@ -20,9 +20,9 @@ handler.before = m => {
     m.reply(`
 *No molestar ⚠️*
 
-* 🔹 El usuario mencionado se encuentra (AFK)*
+* 💤 El usuario mencionado se encuentra (AFK)*
 
-*🔹${reason ? 'Motivo de inactividad: ' + reason : 'Motivo de inactividad: No se especifico ningun motivo'}*
+*💤${reason ? 'Motivo de inactividad: ' + reason : 'Motivo de inactividad: No se especifico ningun motivo'}*
 
 *⌛ Cantidad de tiempo transcurrida: ${clockString(new Date - afkTime)}*
 `.trim())
