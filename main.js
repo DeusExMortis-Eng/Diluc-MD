@@ -161,13 +161,13 @@ global.reloadHandler = async function (restatConn) {
   }
 
   conn.welcome = '》¡Hola, @user!《\n┏─━─━━──━━─━─┓\nBienvenido al grupo @subject\n┗─━─「 ✵ 」━─━─┛'
-  conn.bye = '꧁Adiós @user!꧂ \n\nᏐ ►*una preocupacion menos* '
-  conn.spromote = '🔷@user ahora administrador del grupo! 🔺'
-  conn.sdemote = '🔷@user ya no es admin por gay!🔻' 
-  conn.sDesc = '🔷La descripción ha sido cambiada a\n@desc'
-  conn.sSubject = '🔷El título del grupo ha sido cambiado a \n@subject'
-  conn.sIcon = '🔷¡El icono del grupo ha sido cambiado!'
-  conn.sRevoke = '🔷El enlace del grupo ha sido cambiado a \n@revoke'
+  conn.bye = '꧁Adiós @user!꧂ \n\nᏐ ► *una preocupacion menos*'
+  conn.spromote = 'ඬ⃟💎 @user ahora administrador del grupo! 🔺'
+  conn.sdemote = 'ඬ⃟💎 @user ya no es admin por gay!🔻' 
+  conn.sDesc = '✅La descripción ha sido cambiada con exito a\n@desc'
+  conn.sSubject = '✅El título del grupo ha sido cambiado a \n@subject'
+  conn.sIcon = '✅¡El icono del grupo ha sido cambiado!'
+  conn.sRevoke = '✅El enlace del grupo ha sido cambiado a \n@revoke'
   conn.handler = handler.handler.bind(global.conn)
   conn.participantsUpdate = handler.participantsUpdate.bind(global.conn)
   conn.groupsUpdate = handler.groupsUpdate.bind(global.conn)
