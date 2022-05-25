@@ -11,7 +11,7 @@ ptt: true // true diatas ga work, sebab dipaksa tanpa convert ;v
 }
 handler.help = ['ᴀ']
 handler.tags = ['audios']
-handler.customPrefix = /ª|a|A/
+handler.customPrefix = /ª/
 handler.command = /^(a|ª|A?$)/
 
 export default handler
