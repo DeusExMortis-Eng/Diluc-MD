@@ -7,7 +7,7 @@ type: 'audioMessage', // paksa tanpa convert di ffmpeg
 ptt: true // true diatas ga work, sebab dipaksa tanpa convert ;v
 })
 }
-handler.customPrefix = /falda|niña|/i
+handler.customPrefix = /Traiganle una falda|/i
 handler.command = new RegExp
 handler.help = ['ꜰᴀʟᴅᴀ']
 handler.tags = ['audios']
