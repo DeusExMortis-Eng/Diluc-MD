@@ -161,7 +161,7 @@ global.reloadHandler = async function (restatConn) {
   }
 
   conn.welcome = '》¡Hola, @user!《\n┏─━─━━──━━─━─┓\nBienvenido al grupo @subject\n┗─━─「 ✵ 」━─━─┛'
-  conn.bye = '꧁Adiós @user!꧂ \nᏐ ►*nuna preocupacion menos* '
+  conn.bye = '꧁Adiós @user!꧂ \n\nᏐ ►*una preocupacion menos* '
   conn.spromote = '🔷@user ahora administrador del grupo! 🔺'
   conn.sdemote = '🔷@user ya no es admin por gay!🔻' 
   conn.sDesc = '🔷La descripción ha sido cambiada a\n@desc'
