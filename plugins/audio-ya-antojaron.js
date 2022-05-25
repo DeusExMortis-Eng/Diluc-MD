@@ -6,7 +6,7 @@ type: 'audioMessage', // paksa tanpa convert di ffmpeg
 ptt: true // true diatas ga work, sebab dipaksa tanpa convert ;v
 })
 }
-handler.customPrefix = /ya antojaron|antojarooon|antojar|/i
+handler.customPrefix = /ya antojaron/i
 handler.command = new RegExp
 handler.help = ['ʏᴀ ᴀɴᴛᴏᴊᴀʀᴏɴ']
 handler.tags = ['audios']
