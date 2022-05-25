@@ -7,7 +7,7 @@ type: 'audioMessage', // paksa tanpa convert di ffmpeg
 ptt: true // true diatas ga work, sebab dipaksa tanpa convert ;v
 })
 }
-handler.customPrefix = /^(ara ara|ara|ARA|ARA ARA\?)$/i
+handler.customPrefix = /^(ara ara|ARA ARA\?)$/i
 handler.command = new RegExp
 
 
