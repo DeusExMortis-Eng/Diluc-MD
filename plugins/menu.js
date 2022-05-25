@@ -29,14 +29,14 @@ const defaultMenu = {
 │➼• Database: *%rtotalreg of %totalreg*
 ┗────── • ──────• 
 %readmore`.trimStart(),after: `
-★ 🅸🅽🅵🅸🅽🅸🆇 ★
+★ [̲̅D][̲̅I][̲̅L][̲̅U][̲̅C] ★
 █▀▀█ ░█▀▀▀█ ▀▀█▀▀ 
 █▀▀▄ ░█──░█ ─░█── 
 █▄▄█ ░█▄▄▄█ ─░█──
 █▀█ █▀▀█ █▀█ █▀█ 
 ░▄▀ █▄▀█ ░▄▀ ░▄▀ 
 █▄▄ █▄▄█ █▄▄ █▄▄
-★ ʙʏ: ᴏᴅɪɴ™✓ ★ 
+★ ʙʏ: 𝓡𝓪𝓶𝓸𝓼🕶™✓ ★ 
 *%npmname* | %version
 ${'```%npmdesc```'}
 `,
@@ -128,7 +128,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 
     const pp = await conn.profilePictureUrl(pp2).catch(_ => './menu.jpg')
-    conn.sendHydrated(m.chat, text.trim(), author, pp, 'https://wa.me/5214774739565', '𝗖𝗢𝗡𝗧𝗔𝗖𝗧𝗢', null, null, [
+    conn.sendHydrated(m.chat, text.trim(), author, pp, 'https://wa.me/302111996024', '𝗖𝗢𝗡𝗧𝗔𝗖𝗧𝗢', null, null, [
       ['𝗖𝗥𝗘𝗗𝗜𝗧𝗢𝗦', '/creditos'],
       ['𝗣𝗜𝗡𝗚', '/ping'],
       ['𝗟𝗜𝗦𝗧𝗔 𝗗𝗘𝗟 𝗠𝗘𝗡𝗨', '/listmenu']
