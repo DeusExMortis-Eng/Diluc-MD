@@ -6,7 +6,7 @@ type: 'audioMessage', // paksa tanpa convert di ffmpeg
 ptt: true // true diatas ga work, sebab dipaksa tanpa convert ;v
 })
 }
-handler.customPrefix = /linda|perra|hermosa/i
+handler.customPrefix = /Que linda que estas|linda hdp/i
 handler.command = new RegExp
 
 handler.help = ['ʟɪɴᴅᴀ']
