@@ -7,7 +7,7 @@ type: 'audioMessage', // paksa tanpa convert di ffmpeg
 ptt: true // true diatas ga work, sebab dipaksa tanpa convert ;v
 })
 }
-handler.customPrefix = /buscando un cabron/i
+handler.customPrefix = /Ando buscando un cabron/i
 handler.command = new RegExp
 handler.help = ['ᴄᴀʙʀᴏɴ']
 handler.tags = ['audios']
