@@ -10,7 +10,7 @@ let handler = async m => m.reply(`
 ┃github:https://github.com/BochilGaming/games-wabot
 ┃────────➢
 ┃࿊⃟♦- *Grupo oficial del bot*, 
-┃https://chat.whatsapp.com/FYQ2L2wPuR958AOXogzmHY
+┃https://chat.whatsapp.com/Kct63Kl02mqF6sfmorZkLK
 ┃────────➢ 
 ┗━━━━ ◈❮🥶🤙🏿❯◈ ━━━━━ ◈
 
