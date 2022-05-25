@@ -40,7 +40,7 @@ ${author}
     }
 handler.help = ['ʀᴀɴᴋᴄʜᴀᴅ']
 handler.tags = ['juegos']
-handler.command = ['rankchads','chads','macho alfa', 'rankchads']
+handler.command = ['rankchads', 'rankchads']
 handler.group = true
 
 export default handler
